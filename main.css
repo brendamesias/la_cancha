@@ -5,7 +5,68 @@ body{
 }
 .container{
   width: 700px;
+  padding: 0;
   height: 350px;
-  margin-left: 10px;
+  margin: 10px;
   border: 15px solid #8CB27C;
+}
+.soccer_field{
+  margin: 5px;
+  padding: 0;
+  height: 97%;
+  background-color: #8CB27C;
+  }
+  .goal_box1{
+    margin: 0;
+    padding: 0;
+    border: 5px solid white;
+    width: 12%;
+    height: 40%;
+    float: right;
+    position: relative;
+    top:30%;
+    left: 5px;
+  }
+  .goal_box2{
+    margin: 0;
+    padding: 0;
+    border: 5px solid white;
+    width: 12%;
+    height: 40%;
+    position: relative;
+    top:30%;
+    right: 5px;
+  }
+  .center_circle{
+    border-radius: 100%;
+    border: 5px solid white;
+    height: 140px;
+    width: 140px;
+    position: relative;
+    left: 40%;
+    bottom: 100px;
+  }
+.circle{
+  margin: 0;
+  padding: 0;
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid grey;
+  height: 15px;
+  width:15px;
+}
+.one{
+  position: relative;
+  bottom: 40px;
+  left: 75px;
+}
+.two{
+  position: relative;
+ bottom: 30%;
+ left: 50%;
+}
+.three{
+  position: relative;
+  left: 80%;
+  top: 30px;
 }
