@@ -1,0 +1,11 @@
+body{
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+}
+.container{
+  width: 700px;
+  height: 350px;
+  margin-left: 10px;
+  border: 15px solid #8CB27C;
+}
